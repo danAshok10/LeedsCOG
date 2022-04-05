@@ -3053,7 +3053,9 @@ html.no-csstransitions .hero-content {
 }
 
 .social-list__icon--twitter::before {
-  background-image: url(../images/icons/social/icon-twitter.svg);
+  background-image: url(../images/icons/social/whatsApp1.png);
+  width: 4rem;
+  height: 4rem;
 }
 
 .social-list__icon--instagram::before {
