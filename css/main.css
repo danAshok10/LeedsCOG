@@ -3055,8 +3055,8 @@ html.no-csstransitions .hero-content {
 
 .social-list__icon--twitter::before {
   background-image: url(../images/icons/social/whatsApp1.png);
-  width: 4rem;
-  height: 4rem;
+  width: 4.1rem;
+  height: 4.1rem;
 }
 
 .social-list__icon--instagram::before {
