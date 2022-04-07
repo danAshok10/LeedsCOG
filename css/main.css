@@ -1876,7 +1876,7 @@ input::-moz-focus-inner {
  * ## mobile menu toggle
  * ------------------------------------------------------------------- */
 .header-menu-toggle {
-  z-index: 102;
+  z-index: 1000;
   display: none;
   height: 4.2rem;
   width: 4.2rem;
