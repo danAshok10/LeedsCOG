@@ -1803,7 +1803,7 @@ input::-moz-focus-inner {
  * ## header logo
  * ------------------------------------------------------------------- */
 .header-logo {
-  z-index: 102;
+  z-index: 0;
   display: inline-block;
   margin: 0;
   padding-top: 8rem;
