@@ -59,6 +59,7 @@
             <ul class="header-nav">
                 <li><a href="index.html" title="Home">Home</a></li>
                 <li><a href="about.html" title="About">About</a></li>
+                <li><a href="volunteer.html">Gallery</a></li>
                 <li class="current"><a href="contact.html" title="Contact us">Contact</a></li>	
             </ul>
         </nav>
@@ -109,6 +110,35 @@
                         </p>
                     </div>
                 </div>
+                <h2>Get In Touched.</h2>
+
+                <form name="contactForm" id="contactForm" method="post" action="" autocomplete="off">
+                    <fieldset>
+
+                        <div class="form-field">
+                            <input name="cName" id="cName" class="h-full-width h-remove-bottom" placeholder="Your Name" value="" type="text">
+                        </div>
+
+                        <div class="form-field">
+                            <input name="email" id="email" class="h-full-width h-remove-bottom" placeholder="Your Email" value="" type="text">
+                        </div>
+
+                        <div class="form-field">
+                            <input name="cWebsite" id="cWebsite" class="h-full-width h-remove-bottom" placeholder="Website" value="" type="text">
+                        </div>
+
+                        <div class="message form-field">
+                            <textarea name="cMessage" id="cMessage" class="h-full-width h-remove-bottom" placeholder="Your Message"></textarea>
+                        </div>
+
+                        <br>
+
+                        <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large h-full-width" onclick="sendEmail()" value="Send Message" type="button" >
+
+                    </fieldset>
+                </form>
+
+
 
 
 
@@ -126,20 +156,20 @@
             <div class="column">
                 <ul class="social-list">
                     <li class="social-list__item">
-                        <a href="#0" title="">
+                        <a href="https://www.facebook.com/zion.leeds.3" title="">
                             <span class="social-list__icon social-list__icon--facebook"></span>
                             <span class="social-list__text">Facebook</span>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--twitter"></span>
+                        <a href="https://api.whatsapp.com/send?phone=+447412574755" title="">
+                            <span class="social-list__icon social-list__icon--twitter " width="24px" height="24px"></span>
                             <span class="social-list__text">WhatsApp</span>
                         </a>
                     </li>
                    
                     <li class="social-list__item">
-                        <a href="#0" title="">
+                        <a href = "mailto: Zpcogleeds@gmail.com" title="">
                             <span class="social-list__icon social-list__icon--email"></span>
                             <span class="social-list__text">Email</span>
                         </a>
@@ -149,7 +179,6 @@
         </div> <!-- end social-content -->
 
     </section> <!-- end s-social -->
-
 
     <!-- footer
     ================================================== -->
@@ -186,6 +215,7 @@
                         <ul class="footer-list">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
+                            <li><a href="volunteer.html">Gallery</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -214,5 +244,23 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+        function sendEmail(){
+            
 
+
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "abelashok2021@gmail.com",
+            Password : "Abel@shok23",
+            To : 'abelashok2015@gmail.com',
+            From : "abelashok2021@gmail.com",
+            Subject : "Contact Enquiry",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+        }
+    </script>
 </body>
