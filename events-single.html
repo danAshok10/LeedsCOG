@@ -29,6 +29,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
 </head>
 
 <body id="top">
@@ -50,19 +52,18 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.svg" alt="Homepage">
+                <img src="images/l.png" alt="Homepage">
             </a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
-                <li><a href="index.html" title="Home">Home</a></li>
+                <li class="current"><a href="index.html" title="Home">Home</a></li>
                 <li><a href="about.html" title="About">About</a></li>
-                <li class="current"><a href="events.html" title="Services">Events</a></li>
+                <li><a href="events-single.html">Gallery</a></li>
                 <li><a href="contact.html" title="Contact us">Contact</a></li>	
             </ul>
         </nav>
-
         <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
     </header> <!-- end s-header -->
@@ -75,7 +76,7 @@
         <div class="gradient-overlay"></div>
         <div class="row page-header__content">
             <div class="column">
-                <h1>Upcoming Events</h1>
+                <h1>Gallery</h1>
             </div>
         </div>
 
@@ -86,54 +87,39 @@
     ================================================== -->
     <section class="page-content">
 
-        <div class="row">
-            <div class="column">
-
-                <div class="media-wrap event-thumb">
-                        <img src="images/thumbs/events/event-1000.jpg" 
-                          srcset="images/thumbs/events/event-2000.jpg 2000w, 
-                                  images/thumbs/events/event-1000.jpg 1000w, 
-                                  images/thumbs/events/event-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
-                </div> <!-- end media-wrap -->
-
-                <div class="event-content">
-
-                    <div class="event-title">
-                        <h2 class="display-1">2019 Kids Church Camp</h2>
-                    </div>
-
-                    <p>
-                    A placeat dolorem quia explicabo nisi enim. Voluptatem sit 
-                    voluptatem molestiae et dolores. Hic saepe id quis perspiciatis. 
-                    Est error tenetur est facere est atque possimus est iste.
-                    Sequi et iure delectus ut tempore soluta nihil. Voluptatem enim 
-                    possimus ipsum perspiciatis sunt. Corporis quo expedita ut odio 
-                    ducimus at debitis nobis dolorum. Hic saepe id quis perspiciatis.
-                    Fugit placeat qui tenetur aperiam deleniti hic.
-                    </p>
-
-                    <p>
-                    Nesciunt eius aspernatur. Veniam deleniti iusto est corrupti voluptatem 
-                    adipisci. Et cupiditate repellendus omnis. Quos ipsam praesentium ea 
-                    facere repudiandae. Minus ea maiores nemo libero unde saepe ut 
-                    voluptates. Cupiditate ut in voluptatem veritatis sed dolores ex 
-                    eum totam. Et earum et recusandae laboriosam ipsam.
-                    </p>
-
-                    <ul class="event-meta">
-                        <li><strong>Age</strong>7-12 Years Old</li>
-                        <li><strong>Cost</strong>150 USD</li>
-                        <li><strong>Date</strong>Saturday, September 28, 2019</li>
-                        <li><strong>Time</strong>8:00AM - 5:30PM</li>
-                        <li><strong>Place</strong>1600 Amphitheatre Parkway, Mt. View</li>
-                    </ul>
-
-                </div> <!-- end event-content -->
-
-
+        <div class="photo-gallery">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center" style="text-align: center;">Photos</h2>
+                   
+                </div>
+                <div class="row photos">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/avatars/user-01.jpg" data-lightbox="photos"><img class="img-fluid" src="images/avatars/user-01.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/avatars/user-02.jpg" data-lightbox="photos"><img class="img-fluid" src="images/avatars/user-02.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/avatars/user-03.jpg" data-lightbox="photos"><img class="img-fluid" src="images/avatars/user-03.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/avatars/user-04.jpg" data-lightbox="photos"><img class="img-fluid" src="images/avatars/user-04.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/avatars/user-05.jpg" data-lightbox="photos"><img class="img-fluid" src="images/avatars/user-05.jpg"></a></div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="images/avatars/user-06.jpg" data-lightbox="photos"><img class="img-fluid" src="images/avatars/user-06.jpg"></a></div>
+                    
+                </div>
             </div>
         </div>
+        <div class="photo-gallery">
+            <div class="container">
+                <div class="intro">
+                     <h2 class="text-center" style="text-align: center;">Videos</h2>
+                   
+                </div>
+                <div class="row photos">
+                    <div class="col-sm-6 col-md-4 col-lg-3 i"><iframe class="img-fluid" src="images/WhatsApp Video 2022-04-10 at 19.11.45.mp4"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 i"><iframe class="img-fluid" src="images/WhatsApp Video 2022-04-10 at 19.11.45.mp4"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 i"><iframe class="img-fluid" src="images/WhatsApp Video 2022-04-10 at 19.11.45.mp4"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 i"><iframe class="img-fluid" src="images/WhatsApp Video 2022-04-10 at 19.11.45.mp4"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
 
+                    
+                </div>
+            </div>
+        </div>
     </section> <!-- end page content -->
 
 
@@ -145,25 +131,20 @@
             <div class="column">
                 <ul class="social-list">
                     <li class="social-list__item">
-                        <a href="#0" title="">
+                        <a href="https://www.facebook.com/zion.leeds.3" title="">
                             <span class="social-list__icon social-list__icon--facebook"></span>
                             <span class="social-list__text">Facebook</span>
                         </a>
                     </li>
                     <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--twitter"></span>
-                            <span class="social-list__text">Twitter</span>
+                        <a href="https://api.whatsapp.com/send?phone=+447412574755" title="">
+                            <span class="social-list__icon social-list__icon--twitter " width="24px" height="24px"></span>
+                            <span class="social-list__text">WhatsApp</span>
                         </a>
                     </li>
+                   
                     <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--instagram"></span>
-                            <span class="social-list__text">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="social-list__item">
-                        <a href="#0" title="">
+                        <a href = "mailto: Zpcogleeds@gmail.com" title="">
                             <span class="social-list__icon social-list__icon--email"></span>
                             <span class="social-list__text">Email</span>
                         </a>
@@ -171,6 +152,8 @@
                 </ul>
             </div>
         </div> <!-- end social-content -->
+
+    </section> <!-- end s-social -->
 
     </section> <!-- end s-social -->
 
@@ -183,13 +166,11 @@
             <div class="column large-4 medium-5 tab-full">
                 <div class="footer-logo">
                     <a class="site-footer-logo" href="index.html">
-                        <img src="images/logo.svg" alt="Homepage">
+                        <img src="images/l.png" alt="Homepage">
                     </a>
                 </div>  <!-- footer-logo -->
                 <p>
-                Laborum ad explicabo. Molestiae voluptates est. Quisquam labore tenetur 
-                et assumenda voluptatibus a beatae. Rerum odio ducimus reprehenderit 
-                sit animi laborum nostrum dolorum animi voluptates est voluptatibus a beatae. 
+                    Zion Pentacostal Church of God  , a pentacostal church based in Leeds, north of England UK. The church was formed to provide pentacostal fellowship for those of like precious faith so that lords name should be glorified and to propagate the gospel of Jesus Christ
                 </p>
             </div>
             <div class="column large-half tab-full">
@@ -197,13 +178,13 @@
                     <div class="column large-7 medium-full">
                         <h4 class="h6">Our Location</h4>
                         <p>
-                        1600 Amphitheatre Parkway <br>
-                        Mountain View, California <br>
-                        94043 US
+                        Unit 1, Nowell Approach,<br>
+                        Leeds-LS8 5BJ,West Yorkshire,<br>
+                        United Kingdom.
                         </p>
         
                         <p>
-                        <a href="https://goo.gl/maps/bc7C7eYtSmnNs6216" target="_blank" class="btn btn--footer">Get Direction</a>
+                        <a href="https://www.google.co.in/maps/place/Luxor+Rd,+Harehills,+Leeds+LS8+5BJ,+UK/@53.8156809,-1.5162034,92m/data=!3m1!1e3!4m5!3m4!1s0x48795b88487794dd:0x9f675cd4ead6cb9c!8m2!3d53.8157071!4d-1.5159669" target="_blank" class="btn btn--footer">Get Direction</a>
                         </p>
                     </div>
                     <div class="column large-5 medium-full">
@@ -211,9 +192,7 @@
                         <ul class="footer-list">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
-                            <li><a href="volunteer.html">Volunteer</a></li>
-                            <li><a href="connect-group.html">Connect Groups</a></li>
-                            <li><a href="events.html">Upcoming Events</a></li>
+                            <li><a href="volunteer.html">Gallery</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -221,18 +200,18 @@
             </div>
         </div> <!-- end footer-top -->
 
-        <div class="row footer-bottom">
+        <!-- <div class="row footer-bottom">
             <div class="column ss-copyright">
-                <span>© Copyright Hesed 2019</span> 
-                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                <span>© Copyright Hesed</span> 
             </div>
-        </div> <!-- footer-bottom -->
+        </div> footer-bottom -->
 
         <div class="ss-go-top">
             <a class="smoothscroll" title="Back to Top" href="#top">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
             </a>
         </div> <!-- ss-go-top -->
+
 
     </footer> <!-- end s-footer -->
 
@@ -242,5 +221,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
