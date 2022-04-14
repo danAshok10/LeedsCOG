@@ -1315,5 +1315,17 @@ textarea {
 .h-pull-right {
 	float: right;
 }
+@media screen and (max-width:400px) {
+	.photo-gallery .item {
+		padding-left: 7rem;
+		padding-right: 5rem;
+	}
+}
+@media screen and (max-width:600px) {
+	.photo-gallery .item {
+		padding-left: 7rem;
+		padding-right: 5rem;
+	}
+}
 
 /*# sourceMappingURL=base.css.map */
