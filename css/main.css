@@ -3632,9 +3632,10 @@ html.no-csstransitions .hero-content {
   padding: 1rem;
 }
 .photo-gallery .i {
-  padding-bottom:30px;
+  /* padding-bottom:30px; */
   height: 30rem;
   width: 25rem;
+  padding: 1rem;
   /* padding-left: 5rem; */
 }
 
