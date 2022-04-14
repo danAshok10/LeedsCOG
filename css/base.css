@@ -874,7 +874,7 @@ textarea {
 @media screen and (max-width:600px) {
 	.row {
 		width: 100%;
-		padding-left: 5rem;
+		padding-left: 7rem;
 		padding-right: 5rem;
 	}
 
@@ -986,7 +986,7 @@ textarea {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:400px) {
 	.row {
-		padding-left: 5rem;
+		padding-left: 7rem;
 		padding-right: 5rem;
 	}
 
