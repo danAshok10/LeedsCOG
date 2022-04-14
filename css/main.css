@@ -3635,6 +3635,6 @@ html.no-csstransitions .hero-content {
   padding-bottom:30px;
   height: 30rem;
   width: 25rem;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
 }
 

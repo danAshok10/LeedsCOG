@@ -1333,5 +1333,23 @@ textarea {
          width: 33rem;
 	}
 }
+@media screen and (max-width:400px) {
+	.photo-gallery .i {
+		/* padding-left: 7rem;
+		padding-right: 5rem; */
+		height: 25rem;
+       width: 33rem;
+	   padding-bottom: 1rem;
+	}
+}
+@media screen and (max-width:600px) {
+	.photo-gallery .i {
+		padding-bottom: 1rem;
+		/* padding-left: 7rem;
+		padding-right: 5rem; */
+	    height: 25rem;
+         width: 33rem;
+	}
+}
 
 /*# sourceMappingURL=base.css.map */
