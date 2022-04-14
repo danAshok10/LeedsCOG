@@ -3622,12 +3622,14 @@ html.no-csstransitions .hero-content {
 
 .photo-gallery .photos {
   padding-bottom:20px;
+  
 }
 
 .photo-gallery .item {
   padding-bottom:30px;
-  height: 40rem;
-  width: 35rem;
+  height: 25rem;
+  width: 25rem;
+  padding: 1rem;
 }
 .photo-gallery .i {
   padding-bottom:30px;
